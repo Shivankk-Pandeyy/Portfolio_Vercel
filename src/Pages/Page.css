@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Teko", sans-serif;
+}
+span{
+    color: #a2d2ff;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.top{
+    background-color: #000000;
+}
+.box{
+    height: 310vh;
+    width: 100%;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.home-1{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.home-1 img{
+    height: 90vh;
+}
+.home-2{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.home-22{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.home-22 h2{
+    font-size:1.5rem;
+}
+.home-button{
+    height: 10vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home-button a button{
+    height: 8vh;
+    width: 15vw;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.home-22 img{
+    height: 40vh;
+    width: 70%;
+}
+/* ABOUT */
+.abt{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #000000;
+}
+.abt-heading{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.abt-heading h2{
+    font-size: 3rem;
+}
+.abt-content{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.abt-edu{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.abt-edu h2{
+    font-size: 2rem;
+}
+.abt-edu-box{
+    height: 20vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.abt-edu-box h2{
+    font-size: 1.5rem;
+}
+.abt-ex{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.abt-ex h2{
+    font-size: 2rem;
+}
+.abt-ex-box{
+    height: 25vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.abt-ex-box h2{
+    font-size: 1.5rem;
+}
+.abt-ex-box p{
+    font-size: 1.25rem;
+}
+.skills{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.skills li{
+    font-size: 1.75rem;
+}
+/* CONTACT */
+.contact{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.contact h2{
+    font-size: 2rem;
+}
+.c1{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.c11{
+    height: 40vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.c11 form{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.c11 form input{
+    height: 6vh;
+    width: 80%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #FFFFFF;
+    outline: none;
+    font-size: 1.5rem;
+}
+.c11 form input:focus{
+    height: 6vh;
+    width: 80%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #FFFFFF;
+    outline: none;
+    border: 2px solid #FFFFFF;
+}
+.c11 form button{
+    height: 5vh;
+    width: 20%;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.c11 a button{
+    height: 6vh;
+    width: 10vw;
+    font-size: 1.5rem;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+}
+.c2{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.c22{
+    height: 40vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.c22 h2{
+    font-size: 1.5rem;
+}
+.c22 img{
+    height: 15vh;
+    cursor: pointer;
+}
+/* PROJECT */
+.project{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.project-head{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.project-head h2{
+    font-size: 2rem;
+}
+.pc{
+    height: 90vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.pc-con{
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 1vh;
+}
+.pc-con h2{
+    font-size: 2rem;
+    color: #a2d2ff;
+}
+.pc-con p{
+    font-size: 1.25rem;
+}
+.pc-con span a{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+/* MEDIA QUERY */
+@media screen and (min-width: 100px) and (max-width:1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: "Teko", sans-serif;
+    }
+    span{
+        color: #a2d2ff;
+    }
+    button:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    .top{
+        background-color: #000000;
+    }
+    .box{
+        height: 310vh;
+        width: 100%;
+    }
+    .home{
+        height: 150vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .home-1{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .home-1 img{
+        height: 40vh;
+    }
+    .home-2{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .home-22{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .home-22 h2{
+        font-size:1.25rem;
+    }
+    .home-button{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .home-button a button{
+        height: 8vh;
+        width: 55vw;
+        background-color: transparent;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    .home-22 img{
+        height: 40vh;
+        width: 80%;
+    }
+    /* ABOUT */
+    .abt{
+        height: 370vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background: #000000;
+    }
+    .abt-heading{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .abt-heading h2{
+        font-size: 2rem;
+    }
+    .abt-content{
+        height: 360vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .abt-edu{
+        height: 180vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .abt-edu h2{
+        font-size: 1.5rem;
+    }
+    .abt-edu-box{
+        height: 50vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .abt-edu-box h2{
+        font-size: 1.2rem;
+    }
+    .abt-ex{
+        height: 180vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .abt-ex h2{
+        font-size: 1.5rem;
+    }
+    .abt-ex-box{
+        height: 50vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .abt-ex-box h2{
+        font-size: 1.2rem;
+    }
+    .abt-ex-box p{
+        font-size: 1rem;
+    }
+    .skills{
+        height: 35vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .skills li{
+        font-size: 1.5rem;
+    }
+    /* CONTACT */
+    .contact{
+        height: 220vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .contact h2{
+        font-size: 2rem;
+    }
+    .c1{
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .c11{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .c11 form{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .c11 form input{
+        height: 6vh;
+        width: 80%;
+        border-radius: 10px;
+        background-color: transparent;
+        color: #FFFFFF;
+        outline: none;
+        font-size: 1rem;
+    }
+    .c11 form input:focus{
+        height: 6vh;
+        width: 80%;
+        border-radius: 10px;
+        background-color: transparent;
+        color: #FFFFFF;
+        outline: none;
+        border: 2px solid #FFFFFF;
+    }
+    .c11 form button{
+        height: 5vh;
+        width: 50%;
+        background-color: transparent;
+        border: 2px solid #FFFFFF;
+        font-size: 1.25rem;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+    .c11 a button{
+        height: 6vh;
+        width: 50vw;
+        font-size: 1.5rem;
+        border: 2px solid #FFFFFF;
+        background-color: transparent;
+    }
+    .c2{
+        height: 140vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .c22{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .c22 h2{
+        font-size: 1rem;
+    }
+    .c22 img{
+        height: 10vh;
+        cursor: pointer;
+    }
+    /* PROJECT */
+    .project{
+        height: 280vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .project-head{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .project-head h2{
+        font-size: 2rem;
+    }
+    .pc{
+        height: 290vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #000000;
+    }
+    .pc-con{
+        height: 40vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        padding: 1vh;
+    }
+    .pc-con h2{
+        font-size: 1.5rem;
+        color: #a2d2ff;
+    }
+    .pc-con p{
+        font-size: 1rem;
+    }
+    .pc-con span a{
+        font-size: 1.5rem;
+        text-decoration: underline;
+    }
+}
